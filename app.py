@@ -12,7 +12,7 @@ except Exception:
     print(f"{Exception}")
 
 
-st.header('Analisis de datos de anuncios de venta de coches')
+st.header('Análisis de datos de anuncios de venta de coches')
 hist_button = st.checkbox('Construir histograma')  # crear un botón
 
 if hist_button:  # al hacer clic en el botón
